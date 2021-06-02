@@ -1,0 +1,31 @@
+{
+  "name": "graphql-post-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "json:server": "json-server --watch ./db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinodg006/graphql-post-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinodg006/graphql-post-app/issues"
+  },
+  "homepage": "https://github.com/vinodg006/graphql-post-app#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.0",
+    "json-server": "^0.16.3",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
